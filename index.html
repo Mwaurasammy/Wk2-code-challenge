@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="shopping-list">
+        <h1>Shopping List</h1>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Enter Items" />
+          <button id="add-btn" onclick="addItems()">Add</button>
+        </div>
+
+        <ul id="list-container"></ul>
+      </div>
+      <button id="clear-btn" onclick="clearItems()">Clear List</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
